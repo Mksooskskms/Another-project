@@ -1,0 +1,61 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+
+nav{
+    font-size: 20px;
+    /* margin: px; */
+    padding: 8px;
+   text-align: center;
+    letter-spacing: 1px;
+    height: 50px;
+    background-color:rgba(0, 0, 0, 0.498); 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    animation-name: example;
+    animation-duration: 3s;
+}
+nav :hover{
+    animation-name: example;
+    animation-duration: 10s;
+
+}
+@keyframes example {
+    from {
+        background-color: rgb(22, 22, 21);
+    }
+    to {
+        background-color: rgba(132, 3, 3, 0.726);
+    }
+}
+
+.img img{
+    width: 300px;
+    margin-left: 100px;
+}
+h1{
+    background-color: rgba(0, 0, 0, 0.331);
+    font-size: 30px;
+    
+}
+
+p{
+    font-size: 30px;
+    
+}
+.card{
+    border: 1px solid rgba(0, 0, 0, 0.311);
+    border-radius: 2px;
+}
+.add{
+    font-size: 40px;
+    background-color: rgba(0, 0, 0, 0.142);
+    color: peru;
+}
+.asid{
+    font-size: 40px;
+    color: peru;
+}
