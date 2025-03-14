@@ -11,7 +11,7 @@ nav{
    text-align: center;
     letter-spacing: 1px;
     height: 50px;
-    background-color:#000000; 
+    background-color:rgba(0, 0, 0, 0.498); 
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -20,15 +20,15 @@ nav{
 }
 nav :hover{
     animation-name: example;
-    animation-duration: 4s;
+    animation-duration: 10s;
 
 }
 @keyframes example {
     from {
-        background-color: rgba(234, 255, 0, 0.429);
+        background-color: rgb(22, 22, 21);
     }
     to {
-        background-color: rgba(0, 0, 255, 0.683);
+        background-color: rgba(132, 3, 3, 0.726);
     }
 }
 
@@ -52,4 +52,12 @@ p{
     border: 1px solid rgba(0, 0, 0, 0.311);
     border-radius: 2px;
 }
-
+.add{
+    font-size: 40px;
+    background-color: rgba(0, 0, 0, 0.142);
+    color: peru;
+}
+.asid{
+    font-size: 40px;
+    color: peru;
+}
